@@ -1,0 +1,7 @@
+Red R
+Green G
+Yellow Y
+White W
+Orange O
+Ultraviolet U
+Infrared I

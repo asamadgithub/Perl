@@ -1,0 +1,23 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $x= "Hellow";
+my $y= "Guria";
+my $z;
+
+
+print "$x  $y \n";
+$z = $x . " " . $y;
+
+print $z, "\n";
+
+my $w= $z x3 ;
+
+
+print $w, "\n";
+
+$w.= "' !!!!!!!  '";
+
+print $w, "\n";

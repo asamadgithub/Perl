@@ -1,0 +1,12 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+#====================================
+my $name;  
+
+#====================================
+
+print "Hellow, Please enter you name  ";
+$name=<STDIN>; chomp $name;
+print "The enetered name was $name \n ";
+

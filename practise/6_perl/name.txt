@@ -1,0 +1,6 @@
+davood,120
+saleem,80
+naveed,90
+aslam,100
+arslan,75
+ibrahim,200

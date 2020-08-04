@@ -1,0 +1,28 @@
+#!/usr/bin/perl
+use strict;
+use warnings;
+use Scalar::Util qw(looks_like_number);
+print "\n\n";
+
+my @color_array = ("Red","Green","Yellow","Blue","White");
+print "Please select color from color manu by respective number\n";
+
+ foreach my $x(1..$#color_array+1){
+   print "$x  --->", $color_array[$x-1],"\n";
+ }
+
+#----------------------------------------------------------------#
+print "---------------------------------------------------------\n";
+
+my $color_output;
+my $input;
+print "Enter the code for color   ";
+$input = <STDIN>;
+chomp $input;
+if(looks_like_number ($input) )and (defined $color_array[$input]){
+  $color_output= $color_array[$input];
+   } else {
+   print "Undefined number scheme\n";
+   exit;  
+   }
+print "The selected color is $color_output\n";
